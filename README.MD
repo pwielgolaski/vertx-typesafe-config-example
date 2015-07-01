@@ -6,7 +6,9 @@
  * conf/dev/application.conf -> dev specific
  * conf/prod/application.conf -> prod specific
 
- I'm extending Vertx Starter what I need to patch in method readMainVerticleFromManifest, but I hope to push it to master.
+ I'm extending Vertx Starter what I need to patch in method readMainVerticleFromManifest, but I hope to push it to master
+ https://github.com/eclipse/vert.x/pull/1093
+ 
  
  ### Usage:
  
