@@ -2,15 +2,13 @@
 
 ### Configuration located in 
 
- * conf/application.conf - common default
- * conf/dev/application.conf - dev specific
- * conf/prod/application.conf - production specific
- 
- 
+ * conf/application.conf -> common
+ * conf/dev/application.conf -> dev specific
+ * conf/prod/application.conf -> prod specific
+
  I'm extending Vertx Starter what I need to patch in method readMainVerticleFromManifest, but I hope to push it to master.
  
  ### Usage:
- 
  
  #### Development
  
