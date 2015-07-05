@@ -25,7 +25,7 @@
   
  #### SLF4J - logging
  
- I'm prefer to use SLF4j, so if you want to can enable it by 
+ I prefer to use SLF4j, so if you want to enable it add extra system property 
  ```
  -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory
  ```
