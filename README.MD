@@ -2,12 +2,9 @@
 
 ### Configuration located in 
 
- * conf/application.conf -> common
- * conf/dev/application.conf -> dev specific
- * conf/prod/application.conf -> prod specific
-
- I'm extending Vertx Starter what I need to patch in method readMainVerticleFromManifest, but I hope to push it to master
- https://github.com/eclipse/vert.x/pull/1093
+ * conf/application.conf - common default
+ * conf/dev/application.conf - dev specific
+ * conf/prod/application.conf - production specific
  
  
  ### Usage:
@@ -26,7 +23,13 @@
  java -Dmode=prod -jar ...-fat.jar`
  ```
   
-  
+ #### SLF4J - logging
+ 
+ I'm prefer to use SLF4j, so if you want to can enable it by 
+ ```
+ -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory
+ ```
+ 
   
   
  
